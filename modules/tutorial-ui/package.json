@@ -1,0 +1,11 @@
+{
+  "name": "@modules/tutorial-ui",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
