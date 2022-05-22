@@ -12,7 +12,7 @@ export const rootRouter = () => {
     });
 
     router.get("/", (req, res) => {
-        const component = DocumentTemplate({title:"SSR tutorial page", content: IndexContainer()});
+        const component = DocumentTemplate({title:"SSR tutorial", content: IndexContainer()});
         if(!component){
             return res.status(500).send("internal server error");
         }
