@@ -4,7 +4,7 @@
   "main": "src/server/index.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack --watch",
-    "build": ""
+    "typecheck": "tsc --noEmit"
   },
   "author": "",
   "license": "ISC",

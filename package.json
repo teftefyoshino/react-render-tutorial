@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "typecheck": "npm run typecheck -w tutorial/ssr",
     "lint": "eslint . --ext .js,.ts,.tsx --color --max-warnings 0",
     "format:check": "prettier --check **/*.{js,ts,tsx}",
     "format:fix": "prettier --write **/*.{js,ts,tsx}",
