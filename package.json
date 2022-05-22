@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts,.tsx --color --max-warnings 0",
+    "format:check": "prettier --check **/*.{ts,tsx}",
+    "format:fix": "prettier --write **/*.{ts,tsx}"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/teftef-TY/react-render-tutorial.git"

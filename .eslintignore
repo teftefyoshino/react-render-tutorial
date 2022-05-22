@@ -1,0 +1,8 @@
+# ignore files that have not been imported from anywhere except root
+package.json
+package-lock.json
+tsconfig.json
+webpack.config.js
+
+# igonore generated files
+dist/

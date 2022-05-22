@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
     'standard',
     "prettier",
   ],
@@ -20,6 +21,12 @@ module.exports = {
     'react',
     '@typescript-eslint'
   ],
+  settings: {
+    "react": {
+      "version": "detect",
+    },
+  },
   rules: {
+    'react/react-in-jsx-scope': 'off',
   }
 }
