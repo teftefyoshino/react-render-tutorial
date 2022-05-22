@@ -1,17 +1,5 @@
-import type { FC } from 'react';
+import { Root as PageConponent } from '../components/root';
 
-export const IndexContainer = () => {
-    return <App />;
+export const Root = () => {
+    return <PageConponent />;
 };
-
-const App: FC = () => (
-    <div>
-        <h1>Hello! React SSR tutorial</h1>
-        <div>
-            <p>example page</p>
-            <p>
-                ・<a href="/user/list">user list page</a>
-            </p>
-        </div>
-    </div>
-);

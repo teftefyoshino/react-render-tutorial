@@ -1,7 +1,7 @@
 import Router from 'express';
 import { DocumentTemplate } from '@modules/tutorial-ui';
 import { render } from '../render';
-import { IndexContainer } from '../../view/pages';
+import { Root } from '../../view/pages';
 
 export const rootRouter = () => {
     const router = Router();
@@ -12,7 +12,7 @@ export const rootRouter = () => {
     });
 
     router.get('/', (req, res) => {
-        const component = DocumentTemplate({ title: 'SSR tutorial', content: IndexContainer() });
+        const component = DocumentTemplate({ title: 'SSR tutorial', content: Root() });
         if (!component) {
             return res.status(500).send('internal server error');
         }
