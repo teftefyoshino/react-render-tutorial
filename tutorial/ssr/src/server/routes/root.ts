@@ -1,7 +1,7 @@
 import Router from "express";
 import { DocumentTemplate } from "@modules/tutorial-ui";
 import { render } from "../render";
-import { IndexContainer } from "../../view/page";
+import { IndexContainer } from "../../view/pages";
 
 export const rootRouter = () => {
     const router = Router();

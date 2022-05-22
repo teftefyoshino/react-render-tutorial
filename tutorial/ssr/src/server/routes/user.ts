@@ -1,8 +1,8 @@
 import Router from "express";
 import { DocumentTemplate } from "@modules/tutorial-ui";
 import { render } from "../render";
-import { UserListContainer } from "../../view/page/user/list";
-import { UserDetailContainer } from "../../view/page/user/detail";
+import { UserListContainer } from "../../view/pages/user/list";
+import { UserDetailContainer } from "../../view/pages/user/detail";
 
 export const userRouter = () => {
     const router = Router();

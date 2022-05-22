@@ -7,7 +7,6 @@ const port = process.env.PORT || 3000;
 
 server.use("/", rootRouter())
 server.use("/user", userRouter())
-// server.use("/user", require("./routes/index"))
 
 server.listen(port, () => {
     console.log('server started.');
