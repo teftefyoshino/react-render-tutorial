@@ -1,6 +1,6 @@
 ## tutorial ワークスペース
 
-- [ ] SSR
+- [x] SSR
 - [ ] SPA
 - [ ] SPA+SSR
 - [ ] SSG
@@ -8,8 +8,8 @@
 
 ## 機能
 
-- [ ] lint
-- [ ] prettier
+- [x] lint
+- [x] prettier
 - [ ] css
 
 ## 調べること
