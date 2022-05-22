@@ -5,8 +5,8 @@ import { userRouter } from './routes/user';
 const server = express();
 const port = process.env.PORT || 3000;
 
-server.use("/", rootRouter())
-server.use("/user", userRouter())
+server.use('/', rootRouter());
+server.use('/user', userRouter());
 
 server.listen(port, () => {
     console.log('server started.');

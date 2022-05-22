@@ -5,7 +5,7 @@ export interface Props {
     content: ReactElement;
 }
 
-export const DocumentTemplate:FC<Props> = ({title, content}) => {
+export const DocumentTemplate: FC<Props> = ({ title, content }) => {
     return (
         <html>
             <head>
@@ -14,9 +14,7 @@ export const DocumentTemplate:FC<Props> = ({title, content}) => {
                 <meta name="description" content={title} />
                 <title>{title}</title>
             </head>
-            <body>
-                {content}
-            </body>
+            <body>{content}</body>
         </html>
     );
 };

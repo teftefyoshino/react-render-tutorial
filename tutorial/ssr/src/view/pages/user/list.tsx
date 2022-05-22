@@ -3,7 +3,7 @@ import users from '../../../data/users.json';
 
 export const UserListContainer = () => {
     return <App />;
-}
+};
 
 const App: FC = () => {
     return (
@@ -11,13 +11,11 @@ const App: FC = () => {
             <h1>sample user list</h1>
             <div>
                 <ul>
-                    {users.data.map((user) =>(
-                            <li key={user.id}>{user.displayName}</li>
-                        ))
-                    }
+                    {users.data.map((user) => (
+                        <li key={user.id}>{user.displayName}</li>
+                    ))}
                 </ul>
             </div>
         </div>
-    )
+    );
 };
-

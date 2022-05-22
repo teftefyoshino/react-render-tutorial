@@ -1,9 +1,7 @@
-import { ReactElement } from "react";
-import { renderToStaticMarkup } from "react-dom/server";
+import { ReactElement } from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
 
-export const render = (content : ReactElement): string => {
+export const render = (content: ReactElement): string => {
     const html = renderToStaticMarkup(content);
-    return (
-        `<!DOCTYPE html>${html}`
-    )
+    return `<!DOCTYPE html>${html}`;
 };

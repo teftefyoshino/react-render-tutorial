@@ -1,7 +1,7 @@
 declare module './users.json' {
     interface Users {
-      id: number;
-      displayName: string;
+        id: number;
+        displayName: string;
     }
 
     interface Data {

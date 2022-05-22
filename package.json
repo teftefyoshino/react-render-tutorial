@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .js,.ts,.tsx --color --max-warnings 0",
-    "format:check": "prettier --check **/*.{ts,tsx}",
-    "format:fix": "prettier --write **/*.{ts,tsx}"
+    "format:check": "prettier --check **/*.{js,ts,tsx}",
+    "format:fix": "prettier --write **/*.{js,ts,tsx}",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,9 @@
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^12.4.1",
     "nodemon-webpack-plugin": "^4.7.1",
     "prettier": "^2.6.2",
     "ts-loader": "^9.3.0",
@@ -42,5 +46,11 @@
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-node-externals": "^3.0.0"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,tsx}": [
+      "prettier --check",
+      "eslint . --ext .js,.ts,.tsx"
+    ]
   }
 }
