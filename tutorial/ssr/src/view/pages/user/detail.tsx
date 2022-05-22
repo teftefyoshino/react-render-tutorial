@@ -14,6 +14,12 @@ const App: FC<Props> = ({ id }) => {
     return (
         <div>
             <h1>user info</h1>
+            <p>
+                <a href={'/user/list'}>{'< return list page'}</a>
+            </p>
+            <p>
+                <a href={'/'}>{'< return top page'}</a>
+            </p>
             {user ? (
                 <table>
                     <tr>

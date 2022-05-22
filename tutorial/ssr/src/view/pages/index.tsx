@@ -9,7 +9,9 @@ const App: FC = () => (
         <h1>Hello! React SSR tutorial</h1>
         <div>
             <p>example page</p>
-            <a href="/user/list">user list page</a>
+            <p>
+                ・<a href="/user/list">user list page</a>
+            </p>
         </div>
     </div>
 );

@@ -8,7 +8,7 @@ export const userRouter = () => {
     const router = Router();
 
     router.use((req, res, next) => {
-        console.log(new Date().toISOString());
+        console.log(`access {path: ${req.path}} {time: ${new Date().toISOString()}}`);
         next();
     });
 

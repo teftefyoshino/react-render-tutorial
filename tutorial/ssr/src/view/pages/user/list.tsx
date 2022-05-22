@@ -12,7 +12,9 @@ const App: FC = () => {
             <div>
                 <ul>
                     {users.data.map((user) => (
-                        <li key={user.id}>{user.displayName}</li>
+                        <li key={user.id}>
+                            <a href={`/user/${user.id}`}>{user.displayName}</a>
+                        </li>
                     ))}
                 </ul>
             </div>

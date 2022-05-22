@@ -11,7 +11,10 @@ export const userData: ReadonlyArray<Users> = [
             zipCode: '0791143',
             prefecture: '北海道',
         },
-        phoneNumbers: [{ id: '1', type: 'home', number: '09012341234' }],
+        phoneNumbers: [
+            { id: '1', type: 'home', number: '99912341234' },
+            { id: '2', type: 'mobile', number: '09012341234' },
+        ],
     },
     {
         id: '2',
