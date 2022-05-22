@@ -12,7 +12,9 @@
   "private": true,
   "workspaces": [
     "tutorial/ssr",
-    "modules/tutorial-ui"
+    "modules/tutorial-ui",
+    "tutorial/spa",
+    "tutorial/spa-and-ssr"
   ],
   "devDependencies": {
     "@types/express": "^4.17.13",
