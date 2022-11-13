@@ -1,4 +1,4 @@
-import type { FC } from 'react';
+import { type FC, useEffect } from 'react';
 import { getUserDetailData } from '../../../data/user-datail';
 
 interface Props {
@@ -7,6 +7,10 @@ interface Props {
 
 export const UserDetail: FC<Props> = ({ id }) => {
     const user = getUserDetailData(id);
+    useEffect(() => {
+        // ここは動かないよ
+        console.log('useEffect!!');
+    }, []);
     return (
         <div>
             <h1>user info</h1>
