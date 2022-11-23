@@ -1,6 +1,6 @@
 import { type FC, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { getUserDetailData } from '../../../data/user-datail';
+import { getUserDetailData } from '@modules/static-data';
 
 export const UserDetail: FC = () => {
     const { id } = useParams();

@@ -10,6 +10,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
+    "@modules/static-data": "^1.0.0",
     "@modules/tutorial-ui": "^1.0.0"
   }
 }

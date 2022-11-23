@@ -1,5 +1,5 @@
 import type { FC } from 'react';
-import users from '../../../data/users.json';
+import users from '@modules/static-data/user/users.json';
 
 export const UserList: FC = () => {
     return (

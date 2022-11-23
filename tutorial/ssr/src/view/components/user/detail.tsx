@@ -1,5 +1,5 @@
 import { type FC, useEffect } from 'react';
-import { getUserDetailData } from '../../../data/user-datail';
+import { getUserDetailData } from '@modules/static-data';
 
 interface Props {
     id: string;
