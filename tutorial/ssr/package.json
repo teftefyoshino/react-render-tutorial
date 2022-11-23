@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/server/index.js",
   "scripts": {
-    "dev": "NODE_ENV=development webpack --watch",
+    "dev": "rimraf dist && NODE_ENV=development webpack --watch",
     "typecheck": "tsc --noEmit"
   },
   "author": "",
