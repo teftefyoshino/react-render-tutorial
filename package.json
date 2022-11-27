@@ -21,7 +21,7 @@
     "tutorial/ssr",
     "modules/tutorial-ui",
     "tutorial/spa",
-    "tutorial/spa-and-ssr",
+    "tutorial/spa-with-ssr",
     "modules/static-data"
   ],
   "dependencies": {

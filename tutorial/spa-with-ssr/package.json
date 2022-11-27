@@ -1,0 +1,16 @@
+{
+  "name": "@tutorial/spa-with-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf public/dist && NODE_ENV=development webpack --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modules/static-data": "^1.0.0",
+    "@modules/tutorial-ui": "^1.0.0"
+  }
+}
