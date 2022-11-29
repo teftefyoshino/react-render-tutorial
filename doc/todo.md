@@ -1,8 +1,8 @@
 ## tutorial ワークスペース
 
 - [x] SSR
-- [ ] SPA
-- [ ] SPA+SSR
+- [x] SPA
+- [x] SPA+SSR
 - [ ] SSG
 - [ ] Next.js
 
