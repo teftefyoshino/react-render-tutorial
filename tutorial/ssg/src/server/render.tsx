@@ -9,7 +9,7 @@ export const renderToHTMLStirng = (): string => {
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="description" content={title} />
-            <title>SPA with SSR tutorial</title>
+            <title>SSG tutorial</title>
         </head>
         <body>
             <div id="app">${content}</div>

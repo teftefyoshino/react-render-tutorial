@@ -13,7 +13,7 @@ export const renderToHTMLStirng = (url: string): string => {
         </head>
         <body>
             <div id="app">${content}</div>
-            <script type='text/javascript' src="dist/client.js" ></script>
+            <script type='text/javascript' src="client.js" ></script>
         </body>
     </html>`;
 };

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "rimraf public/dist && NODE_ENV=development webpack --watch",
+    "dev": "rimraf public/*.{js,map} && NODE_ENV=development webpack --watch",
     "typecheck": "tsc --noEmit"
   },
   "author": "",
