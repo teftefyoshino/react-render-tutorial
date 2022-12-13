@@ -22,7 +22,8 @@
     "modules/tutorial-ui",
     "tutorial/spa",
     "tutorial/spa-with-ssr",
-    "modules/static-data"
+    "modules/static-data",
+    "tutorial/ssg"
   ],
   "dependencies": {
     "express": "^4.18.1",
@@ -51,6 +52,7 @@
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
     "ts-loader": "^9.3.0",
+    "ts-node": "^10.9.1",
     "typescript": "^4.7.2",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",

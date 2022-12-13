@@ -1,0 +1,25 @@
+{
+  "name": "@tutorial/ssg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf public && npm run build:static-file & NODE_ENV=development webpack --watch",
+    "build:static-file": "ts-node src/server/generate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modules/static-data": "^1.0.0",
+    "@modules/tutorial-ui": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teftef-TY/react-render-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teftef-TY/react-render-tutorial/issues"
+  },
+  "homepage": "https://github.com/teftef-TY/react-render-tutorial#readme"
+}
