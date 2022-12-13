@@ -3,3 +3,7 @@ node_modules/
 
 # generate output
 dist/
+client.js
+client.js.map
+server.js
+server.js.map

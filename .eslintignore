@@ -6,3 +6,7 @@ webpack.config.js
 
 # igonore generated files
 dist/
+client.js
+client.js.map
+server.js
+server.js.map
