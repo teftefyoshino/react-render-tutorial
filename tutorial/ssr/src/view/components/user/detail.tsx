@@ -8,7 +8,7 @@ interface Props {
 export const UserDetail: FC<Props> = ({ id }) => {
     const user = getUserDetailData(id);
     useEffect(() => {
-        // ここは動かないよ
+        // hydration しないとここは動かないよ!
         console.log('useEffect!!');
     }, []);
     return (

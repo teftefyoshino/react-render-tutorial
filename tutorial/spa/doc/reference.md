@@ -30,6 +30,4 @@
 >
 >参考にさせてもらった記事
 >
->[link_1](https://zenn.dev/rinda_1994/articles/e6d8e3150b312d)
->
->[link_2](https://qiita.com/MasanobuAkiba/items/7adcfd5050150ac9ba36)
+>[link_1](https://zenn.dev/rinda_1994/articles/e6d8e3150b312d#spa)
